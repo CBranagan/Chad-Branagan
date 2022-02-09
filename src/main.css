@@ -1,0 +1,29 @@
+#card-container {
+  width: auto;
+  margin: 0 auto;
+}
+
+#about-me-card {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  align-items: center;
+  background-image: linear-gradient(black, purple)
+}
+
+#about-me-img {
+  max-width: 300px;
+}
+
+#about-me-body {
+}
+
+#about-me-title {
+  font-size: 4rem;
+  color: teal
+}
+
+#about-me-text {
+  color: white;
+  font-size: 20px;
+}
