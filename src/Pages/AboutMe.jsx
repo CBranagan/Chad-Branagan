@@ -1,8 +1,7 @@
 import React from "react";
-import { Container, Button, Card, Image, ListGroup } from "react-bootstrap";
-import css from "../../main.css";
+import { Container, Card } from "react-bootstrap";
 
-const Main = () => {
+const AboutMe = () => {
   return (
     <Container id="card-" fluid>
       <Card id="about-me-card" style={{ width: "100%" }}>
@@ -33,4 +32,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default AboutMe;

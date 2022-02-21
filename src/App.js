@@ -1,24 +1,21 @@
 import "./App.css";
-import Header from "./components/Header";
+import { Header, Footer } from "./components";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
-import Resume from "./components/Resume";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { AboutMe, Portfolio, Resume, Contact } from "./Pages/index";
+import css from "../src/main.css";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
-        <Routes>
-          <Route exact path="/" render={() => <Main />}></Route>
-          <Route exact path="/portfolio" render={() => <Portfolio />}></Route>
-          <Route exact path="/resume" render={() => <Resume />}></Route>
-          {/* <Route exact path="/" render={() => <Main />}></Route> */}
-        </Routes>
-
+        <Switch>
+          <Route path="/aboutme" render={() => <AboutMe />} />
+          <Route path="/portfolio" render={() => <Portfolio />} />
+          <Route path="/resume" render={() => <Resume />} />
+          <Route path="/contact" render={() => <Contact />} />
+        </Switch>
         <Footer />
       </Router>
     </div>
