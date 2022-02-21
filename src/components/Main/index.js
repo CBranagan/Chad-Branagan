@@ -4,13 +4,13 @@ import css from "../../main.css";
 
 const Main = () => {
   return (
-    <Container id="card-container" fluid>
+    <Container id="card-" fluid>
       <Card id="about-me-card" style={{ width: "100%" }}>
-        <Card.Img
+        {/* <Card.Img
           id="about-me-img"
           variant="top"
           src="https://res.cloudinary.com/cbranagan/image/upload/v1644378268/headshot_zfb227.jpg"
-        />
+        /> */}
         <Card.Body id="about-me-body">
           <Card.Title id="about-me-title">Who is Chad Branagan?</Card.Title>
           <Card.Text id="about-me-text">
@@ -27,7 +27,6 @@ const Main = () => {
         </Card.Body>
         <Card.Body id="about-me-body">
           <Card.Title id="about-me-title">Languages</Card.Title>
-          
         </Card.Body>
       </Card>
     </Container>

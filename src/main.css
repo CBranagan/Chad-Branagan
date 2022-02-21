@@ -1,14 +1,15 @@
 #card-container {
-  width: auto;
+  width: 50%;
   margin: 0 auto;
+  height: 100vh;
+  
 }
 
 #about-me-card {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   flex: auto;
-  align-items: center;
-  background-image: linear-gradient(black, purple)
+  align-items: center; */
 }
 
 #about-me-img {
@@ -20,10 +21,33 @@
 
 #about-me-title {
   font-size: 4rem;
-  color: teal
+  color: teal;
 }
 
 #about-me-text {
-  color: white;
+  color: black;
   font-size: 20px;
+}
+
+body {
+  background-image: linear-gradient(
+    #03045e,
+    #023e8a,
+    #0077b6,
+    #0096c7,
+    #00b4d8,
+    #48cae4,
+    #90e0ef,
+    #ade8f4,
+    #caf0f8
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

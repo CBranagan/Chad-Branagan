@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container, Offcanvas } from "react-bootstrap";
-import Main from "../Main/";
+import { BrowserRouter as Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -21,16 +21,15 @@ const Header = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">About Me</Nav.Link>
-                <Nav.Link href="#action2">Portfolio</Nav.Link>
-                <Nav.Link href="#action2">Resume</Nav.Link>
-                <Nav.Link href="#action2">Contact Me</Nav.Link>
+                <Link to="/">About Me</Link>
+                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="#action2">Contact Me</Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-      <Main />
     </>
   );
 };
