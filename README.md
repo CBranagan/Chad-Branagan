@@ -12,9 +12,7 @@
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Credits](#credits)
   * [License](#licenses)
-  * [Tests](#tests)
   * [Contact](#questions)
   
   ## Installation
@@ -25,12 +23,6 @@
 
   none
 
-  ## Credits
-
-  None
-
- 
-  
     
   ## Licenses
 
@@ -40,9 +32,6 @@
     https://opensource.org/licenses/MIT
 
   
-
-
- 
     
 # Contributor Covenant Code of Conduct
 
@@ -177,10 +166,7 @@ For answers to common questions about this code of conduct, see the FAQ at
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
 
- ## Tests
-
- none
-
+ 
  ## Questions
 
  GitHub: https://github.com/CBranagan
