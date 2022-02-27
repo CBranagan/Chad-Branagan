@@ -1,6 +1,6 @@
 {
   "name": "chad-branagan",
-  "homepage": "./aboutme",
+  "homepage": "/aboutme",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

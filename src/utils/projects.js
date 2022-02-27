@@ -1,6 +1,14 @@
 const projects = [
   {
     id: "1",
+    projectTitle: "Ski Haus username: Fawlty password: password",
+    projectImage:
+      "https://res.cloudinary.com/cbranagan/image/upload/v1645989453/Ski-haus_g2zunr.png",
+    projectLink: "https://ski-haus.herokuapp.com/login",
+    projectRepo: "https://github.com/CBranagan/project3",
+  },
+  {
+    id: "2",
     projectTitle: "Early Bird",
     projectImage:
       "https://res.cloudinary.com/cbranagan/image/upload/v1645423372/Early_Bird_Logo_cucqiq.png",
@@ -8,7 +16,7 @@ const projects = [
     projectRepo: "https://github.com/CBranagan/Early-Bird",
   },
   {
-    id: "2",
+    id: "3",
     projectTitle: "Shear Connections",
     projectImage:
       "https://res.cloudinary.com/cbranagan/image/upload/v1645424235/Shear_Connections_Logo_a50rea.png",
@@ -16,21 +24,14 @@ const projects = [
     projectRepo: "https://github.com/corriebutler/shear-connections-P2G5",
   },
   {
-    id: "3",
+    id: "4",
     projectTitle: "Foodie App",
     projectImage:
       "https://res.cloudinary.com/cbranagan/image/upload/v1645424453/Foodie_App_Image_sjtuuj.png",
     projectLink: "https://cbranagan.github.io/food-festival/",
     projectRepo: "https://github.com/CBranagan/food-festival",
   },
-  {
-    id: "4",
-    projectTitle: "Weather Dashboard",
-    projectImage:
-      "https://res.cloudinary.com/cbranagan/image/upload/v1645426728/weather_app_image_cgymfp.png",
-    projectLink: "https://cbranagan.github.io/weather-app/",
-    projectRepo: "https://github.com/CBranagan/weather-app",
-  },
+
   {
     id: "5",
     projectTitle: "Social Media Backend Using MongoDB, Express, and Node",
@@ -41,11 +42,11 @@ const projects = [
   },
   {
     id: "6",
-    projectTitle: "Just Tech News",
+    projectTitle: "Book Search Engine",
     projectImage:
-      "https://res.cloudinary.com/cbranagan/image/upload/v1645428112/Just_tech_news_image_imbei0.png",
-    projectLink: "https://cbranagan.github.io/just-tech-news/",
-    projectRepo: "https://github.com/CBranagan/just-tech-news",
+      "https://res.cloudinary.com/cbranagan/image/upload/v1645989490/Book-search_o8vwmv.png",
+    projectLink: "https://cryptic-temple-78315.herokuapp.com/",
+    projectRepo: "https://github.com/CBranagan/Book-Search",
   },
 ];
 

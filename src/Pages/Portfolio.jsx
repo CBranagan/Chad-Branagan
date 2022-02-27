@@ -3,11 +3,7 @@ import { Container, Card, TabContainer } from "react-bootstrap";
 import { ProjectCards } from "../components";
 
 const Portfolio = () => {
-  return (
-    <Container>
-      <ProjectCards />
-    </Container>
-  );
+  return <ProjectCards />;
 };
 
 export default Portfolio;

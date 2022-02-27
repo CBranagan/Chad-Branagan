@@ -1,26 +1,3 @@
-#card-container {
-  width: 50%;
-  margin: 0 auto;
-  height: 100vh;
-}
-
-#about-me-img {
-  max-width: 300px;
-}
-
-#about-me-body {
-}
-
-#about-me-title {
-  font-size: 4rem;
-  color: teal;
-}
-
-#about-me-text {
-  color: black;
-  font-size: 20px;
-}
-
 body {
   background-image: linear-gradient(
     #03045e,
@@ -38,35 +15,15 @@ body {
   height: 100vh;
 }
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.custom-class {
+  display: none;
+}
+@include media-breakpoint-up(sm) {
+  .custom-class {
+    flex-direction: row;
+  }
 }
 
-/* Project Card Styling*/
-
-#projectCardContainer {
-  margin-top: 100px;
+a {
+  text-decoration: none;
 }
-
-#projectCard{
-  width: 25%;
-}
-
-#projectImage {
-  max-width: 100%;
-  height: 100%;    
-}
-
-#projectImgContainer {
- height: 100%;
-}
-
-#repoBtn {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-
